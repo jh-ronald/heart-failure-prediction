@@ -3,4 +3,5 @@ if(!require(data.table)) install.packages("data.table", repos = "http://cran.us.
 library(tidyverse)
 library(data.table)
 
-heartfailure <- data.table(read_csv(dl))
+temp <- read_csv(dl)
+heartfailure <- data.table(temp)
