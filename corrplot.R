@@ -1,5 +1,5 @@
-if(!require(RColorBrewer)) install.packages("RColorBrewer", repos = "http://cran.us.r-project.org")
-library(RColorBrewer)
+if(!require(corrplot)) install.packages("corrplot", repos = "http://cran.us.r-project.org")
+library(corrplot)
 
 heartfailure_df <- as.data.frame(heartfailure)
 i <- c(1:13)
