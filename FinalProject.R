@@ -71,7 +71,7 @@ test_index_hf <- createDataPartition(y = hf$DEATH_EVENT,
                                      p = 0.1, 
                                      list = FALSE)
 train_hf <- hf[-test_index_hf,]
-test_hf <- hf[test_index_hf]
+test_hf <- hf[test_index_hf,]
 
 ################################################################################
 #Data Analysis
